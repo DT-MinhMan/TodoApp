@@ -10,7 +10,7 @@ const Footer = ({completedTaskCount = 0, activeTaskCount = 0}) => {
                         {
                             completedTaskCount > 0 &&  (
                                 <>
-                                    Congratulation !!! you have completed {completedTaskCount} tasks.
+                                    Congratulation!!! You have completed {completedTaskCount} tasks
                                     {
                                         activeTaskCount > 0 && (`, keep up the good work and complete the remaining ${activeTaskCount} tasks!`)
                                     }
