@@ -26,10 +26,10 @@ const HomePage = () => {
 
   const fetchTasks = async () => {
     try {
-      const res = await api.get(`/tasks?filter=${dateQuery}`);
+     const res = await api.get(`/tasks?filter=${dateQuery}`);
       setTaskBuffer(res.data.tasks);
       setActiveTasksCount(res.data.activeCount);
-      setCompletedTasksCount(res.data.completedCount);
+      setCompletedTasksCount(res.data.completeCount);
       // console.log("Fetched tasks:", res.data);
     }
     catch (error) {
