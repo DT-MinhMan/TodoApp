@@ -77,3 +77,6 @@ npm run start
 
 📸 Hình ảnh dự án (Screenshots)
 ![Giao diện Todo App](frontend/public/TodoAppScreenshot.png)
+
+ ## 🌟 Bạn có thể xem view của ứng dụng tại đây:
+https://todoapp-pnfg.onrender.com
